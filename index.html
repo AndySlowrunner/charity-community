@@ -7,26 +7,38 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bevan&family=Epilogue:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="shortcut icon" href="./icons/favicon.svg" type="image/x-icon">
     <title>Charitable community</title>
 </head>
 <body>
     <header>
-        <div class="container">
-            <picture>
-                <source srcset="./icons/mob-logo.svg" media="(max-width: 768px)" />
-                <img src="./icons/desktop-hero.svg" alt="logo">
-            </picture>
-            <img src="./icons/burger-menu.svg">
+        <div class="header-container">
+            <div class="header-wrapper">
+                <picture>
+                    <source srcset="./icons/mob-logo.svg" media="(max-width: 768px)" />
+                    <img src="./icons/desktop-hero.svg" alt="logo">
+                </picture>
+                <img src="./icons/burger-menu.svg">
+            </div>
         </div>
     </header>
     <main>
         <section>
-            <div class="hero">
+            <div class="container">
                 <h1>Empowering Communities, Transforming Futures</h1>
-                <picture>
-                    <source srcset="./images/mob-hero-img.jpg" media="(max-width: 768px)">
-                    <img src="./images/desktop-hero-img.jpg" alt="hero-image">
-                </picture>
+                <div class="hero-thumb">
+                    <img src="./images/mob-hero-img.jpg" class="hero-img" alt="hero">
+                </div>
+            </div>
+        </section>
+        <section id="What we do">
+            <div class="container">
+                <h3>What we do</h3>
+                <h2>Making a Difference, One Life at a Time</h2>
+                <p>At Hope, we are dedicated to uplifting communities through a range of targeted initiatives. Our focus areas include</p>
+                <div class="we-do-wrapper">
+                    <img src="./images/mob-image-1.jpg" alt="Our hands" class="content-image">
+                </div>
             </div>
         </section>
         </main>
