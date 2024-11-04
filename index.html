@@ -18,7 +18,32 @@
                     <source srcset="./icons/mob-logo.svg" media="(max-width: 768px)" />
                     <img src="./icons/desktop-hero.svg" alt="logo">
                 </picture>
-                <img src="./icons/burger-menu.svg">
+                <img src="./icons/burger-menu.svg" id="js-open">
+            </div>
+            <div class="mobile-menu" id="js-menu">
+                <div class="menu-content">
+                    <img src="./icons/close.svg" id="js-close" class="close-icon">
+                    <div class="mobile-menu-nav" id="js-link">
+                        <ul>
+                            <li>
+                                <a href="#home">Home</a>
+                            </li>
+                            <li>
+                                <a href="#about-us">About us</a>
+                            </li>
+                            <li>
+                                <a href="#our-team">Compaigns</a>
+                            </li>
+                            <li>
+                                <a href="#voices">Get involved</a>
+                            </li>
+                            <li>
+                                <a href="#contact">Contact us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <button type="button" class="mob-menu-btn">Donate</button>
+                </div>
             </div>
         </div>
     </header>
@@ -138,7 +163,7 @@
                 </ul>
             </div>
         </section>
-        <section class="voices">
+        <section id="voices" class="voices">
             <div class="container">
                 <h2>Voices of Hope</h2>
                 <ul class="feedback-list">
@@ -238,8 +263,8 @@
                         <ul class="navigation-list">
                             <li><a href="#home">Home</a></li>
                             <li><a href="#about-us">About us</a></li>
-                            <li><a href="#what-we-do">Compaigns</a></li>
-                            <li><a href="#our-team">Get involved</a></li>
+                            <li><a href="#our-team">Compaigns</a></li>
+                            <li><a href="#voices">Get involved</a></li>
                             <li><a href="#contact">Contact us</a></li>
                         </ul>
                     </div>
@@ -253,5 +278,6 @@
                 </div>
             </div>
         </footer>
+        <script src="./script.js"></script>
     </body>
     </html>
