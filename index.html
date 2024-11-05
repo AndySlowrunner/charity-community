@@ -16,9 +16,16 @@
             <div class="header-wrapper">
                 <picture>
                     <source srcset="./icons/mob-logo.svg" media="(max-width: 768px)" />
-                    <img src="./icons/desktop-hero.svg" alt="logo">
+                    <img src="./icons/desktop-logo.svg" alt="logo" />
                 </picture>
-                <img src="./icons/burger-menu.svg" id="js-open">
+                <ul class="header-navigation-list">
+                    <li><a href="#about-us">About us</a></li>
+                    <li><a href="#our-team">Compaigns</a></li>
+                    <li><a href="#voices">Get involved</a></li>
+                    <li><a href="#contact">Contact us</a></li>
+                </ul>
+                <button type="button" class="header-btn">Donate</button>
+                <img src="./icons/burger-menu.svg" id="js-open" class="burger-menu" />
             </div>
             <div class="mobile-menu" id="js-menu">
                 <div class="menu-content">
@@ -26,19 +33,19 @@
                     <div class="mobile-menu-nav" id="js-link">
                         <ul>
                             <li>
-                                <a href="#home">Home</a>
+                                <a href="#home" class="mobile-nav-link">Home</a>
                             </li>
                             <li>
-                                <a href="#about-us">About us</a>
+                                <a href="#about-us" class="mobile-nav-link">About us</a>
                             </li>
                             <li>
-                                <a href="#our-team">Compaigns</a>
+                                <a href="#our-team" class="mobile-nav-link">Compaigns</a>
                             </li>
                             <li>
-                                <a href="#voices">Get involved</a>
+                                <a href="#voices" class="mobile-nav-link">Get involved</a>
                             </li>
                             <li>
-                                <a href="#contact">Contact us</a>
+                                <a href="#contact" class="mobile-nav-link">Contact us</a>
                             </li>
                         </ul>
                     </div>
@@ -52,17 +59,23 @@
             <div class="container">
                 <h1>Empowering Communities, Transforming Futures</h1>
                 <div class="hero-thumb">
-                    <img src="./images/mob-hero-img.jpg" class="hero-img" alt="hero">
+                    <picture>
+                        <source srcset="./images/mob-hero-img.jpg" media="(max-width: 768px)" />
+                        <img src="./images/desktop-hero-img.jpg" class="hero-img" alt="hero" />
+                    </picture>
                 </div>
             </div>
         </section>
         <section id="what-we-do">
-            <div class="container">
+            <div class="container tablet-container">
                 <p class="special-small">What we do</p>
                 <h2>Making a Difference, One Life at a Time</h2>
                 <p>At Hope, we are dedicated to uplifting communities through a range of targeted initiatives. Our focus areas include</p>
                 <div class="wrapper">
-                    <img src="./images/mob-image-1.jpg" alt="Our hands" class="content-image">
+                    <picture>
+                        <source srcset="./images/mob-image-1.jpg" media="(max-width: 768px)"/>
+                        <img src="./images/desktop-hands-1.jpg" alt="Our hands" class="content-image" />
+                    </picture>
                     <ul>
                         <li>
                             <h3>Education Empowerment</h3>
@@ -85,13 +98,16 @@
             </div>
         </section>
         <section id="about-us" class="about-us">
-            <div class="container">
+            <div class="container tablet-container">
                 <p class="special-small">About us</p>
                 <h2>A Future Filled with Hope</h2>
                 <p>At Hope, we are dedicated to uplifting communities through a range of targeted initiatives</p>
-                <div class="wrapper">
-                    <img src="./images/mob-image-2.jpg" alt="Our hands #2" class="content-image">
-                    <ul>
+                <div class="wrapper vertical-wrapper">
+                    <picture>
+                        <source srcset="./images/mob-image-2.jpg" media="(max-width: 768px)" />
+                        <img src="./images/desktop-hands-2.jpg" alt="Our hands #2" class="content-image wide-image" />
+                    </picture>
+                    <ul class="mission-list">
                         <li>
                             <h3>Our Mission</h3>
                             <p>Our mission is to empower individuals and communities by providing the tools and support they need to overcome
@@ -111,19 +127,24 @@
                 </div>
                 <p class="special-big">Friends. Family. Communities</p>
                 <div class="wrapper">
-                    <img src="./images/mob-image-3.jpg" alt="Our hands #2" class="content-image">
-                    <h3>The Journey of Hope</h3>
-                    <p>Hope was born out of a deep-seated belief that every life holds immense value and potential. Founded in 1990, our
-                    organization began with a small group of passionate individuals determined to make a difference. From humble beginnings,
-                    we have grown into a network of dedicated volunteers, supporters, and partners, all united by a common goal: to bring
-                    hope to those who need it most.<br>
-                    
-                    <br>Our journey has been marked by countless stories of transformation and triumph. From a child who received a scholarship
-                    and became the first in their family to attend college, to communities that have blossomed through our sustainable
-                    farming programs – these successes fuel our commitment to continue our work with unwavering dedication.
-                    We invite you to be a part of our story.<br>
-                    
-                    <br>Together, we can turn the tide and create a world where hope is a reality for everyone.</p>
+                    <picture>
+                        <source srcset="./images/mob-image-3.jpg" media="(max-width: 768px)" />
+                        <img src="./images/desktop-hands-3.jpg" alt="Our hands #3" class="content-image" />
+                    </picture>
+                    <div class="text-wrapper">
+                        <h3>The Journey of Hope</h3>
+                        <p>Hope was born out of a deep-seated belief that every life holds immense value and potential. Founded in 1990, our
+                        organization began with a small group of passionate individuals determined to make a difference. From humble beginnings,
+                        we have grown into a network of dedicated volunteers, supporters, and partners, all united by a common goal: to bring
+                        hope to those who need it most.<br>
+                        
+                        <br>Our journey has been marked by countless stories of transformation and triumph. From a child who received a scholarship
+                        and became the first in their family to attend college, to communities that have blossomed through our sustainable
+                        farming programs – these successes fuel our commitment to continue our work with unwavering dedication.
+                        We invite you to be a part of our story.<br>
+                        
+                        <br>Together, we can turn the tide and create a world where hope is a reality for everyone.</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -133,28 +154,28 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 <ul class="card-list">
                     <li class="card">
-                        <img src="./images/mob-worker-1.jpg" alt="worker1">
+                        <img src="./images/mob-worker-1.jpg" alt="worker1" />
                         <p class="rolle-text">Founder & Executive Director</p>
                         <h3>Emma Johnson</h3>
                         <p>Emma Johnson founded Hope in 2023 and has over 20 years of nonprofit experience. Her passion for education and health
                         drives Hope’s mission, inspiring the team with her leadership and dedication to making a difference.</p>
                     </li>
                     <li class="card">
-                        <img src="./images/mob-worker-2.jpg" alt="worker2">
+                        <img src="./images/mob-worker-2.jpg" alt="worker2" />
                         <p class="rolle-text">Director of Programs</p>
                         <h3>Michael Ramirez</h3>
                         <p>Michael Ramirez, with a background in social work and public health, oversees all of Hope’s initiatives. His strategic
                         planning and compassionate approach ensure our programs effectively meet community needs.</p>
                     </li>
                     <li class="card">
-                        <img src="./images/mob-worker-3.jpg" alt="worker3">
+                        <img src="./images/mob-worker-3.jpg" alt="worker3" />
                         <p class="rolle-text">Head of Education Initiatives</p>
                         <h3>Sophia Lee</h3>
                         <p>Sophia Lee designs and leads our education programs. With over a decade of teaching experience, she is committed to
                         providing quality education and creating opportunities for children to thrive.</p>
                     </li>
                     <li class="card">
-                        <img src="./images/mob-worker-4.jpg" alt="worker4">
+                        <img src="./images/mob-worker-4.jpg" alt="worker4" />
                         <p class="rolle-text">Community Health Coordinator</p>
                         <h3>Dora Thompson</h3>
                         <p>Dora Thompson manages our health and wellness programs. With a background in nursing and public health, he focuses on
@@ -168,7 +189,7 @@
                 <h2>Voices of Hope</h2>
                 <ul class="feedback-list">
                     <li class="feedback-card">
-                        <img src="./images/voices-1.jpg" alt="feedback1">
+                        <img src="./images/voices-1.jpg" alt="feedback1" />
                         <p>
                             "Hope has given my community the resources we needed to build a better future. Through their educational programs, my
                             children now have opportunities I could only dream of.
@@ -177,7 +198,7 @@
                         <p class="sign-text">Maria, Community Member</p>
                     </li>
                     <li class="feedback-card">
-                        <img src="./images/voices-2.jpg" alt="feedback2">
+                        <img src="./images/voices-2.jpg" alt="feedback2" />
                         <p>
                             "Volunteering with Hope has been a life-changing experience. Seeing the direct impact of our work on people's lives is
                             incredibly rewarding."
@@ -185,7 +206,7 @@
                         <p class="sign-text">John, Volunteer</p>
                     </li>
                     <li class="feedback-card">
-                        <img src="./images/voices-3.jpg" alt="feedback3">
+                        <img src="./images/voices-3.jpg" alt="feedback3" />
                         <p>
                             "As a corporate partner, collaborating with Hope has been incredibly fulfilling. Their transparency, dedication, and
                             impactful programs make it easy to support their mission. We are proud to contribute to a cause that truly transforms
@@ -194,7 +215,7 @@
                         <p class="sign-text">Sarah, Corporate Partner</p>
                     </li>
                     <li class="feedback-card">
-                        <img src="./images/voices-4.jpg" alt="feedback4">
+                        <img src="./images/voices-4.jpg" alt="feedback4" />
                         <p>
                             "Hope's micro-financing program has been a game-changer for our community. Small loans have allowed us to start
                             businesses and improve our economic stability. We are now more self-reliant and optimistic about our future."
@@ -202,7 +223,7 @@
                         <p class="sign-text">Raj, Entrepreneur</p>
                     </li>
                     <li class="feedback-card">
-                        <img src="./images/voices-5.jpg" alt="feedback5">
+                        <img src="./images/voices-5.jpg" alt="feedback5" />
                         <p>
                             "Hope's healthcare initiatives have transformed our community's well-being. Access to regular medical check-ups and
                             health education has drastically improved our quality of life. We are healthier and more informed, thanks to their
@@ -211,7 +232,7 @@
                         <p class="sign-text">David, Beneficiary</p>
                     </li>
                     <li class="feedback-card">
-                        <img src="./images/voices-6.jpg" alt="feedback6">
+                        <img src="./images/voices-6.jpg" alt="feedback6" />
                         <p>
                             "Participating in Hope's vocational training program has given me the skills and confidence to start my own business. I
                             am now able to provide for my family and contribute to my community. Hope has truly changed my life."
@@ -223,22 +244,40 @@
             <div class="gallery">
                 <ul class="gallery-list">
                     <li class="gallery-item">
-                        <img src="./images/mob-gallery-1.jpg" alt="image#1">
+                        <picture>
+                            <source srcset="./images/mob-gallery-1.jpg" media="(max-width: 1279px)" />
+                            <img src="./images/desktop-gallery-1.jpg" alt="image#1" />
+                        </picture>
                     </li>
                     <li class="gallery-item">
-                        <img src="./images/mob-gallery-2.jpg" alt="image#2">
+                        <picture>
+                            <source srcset="./images/mob-gallery-2.jpg" media="(max-width: 1279px)" />
+                            <img src="./images/desktop-gallery-2.jpg" alt="image#2" />
+                        </picture>
                     </li>
                     <li class="gallery-item">
-                        <img src="./images/mob-gallery-3.jpg" alt="image#3">
+                        <picture>
+                            <source srcset="./images/mob-gallery-3.jpg" media="(max-width: 1279px)" />
+                            <img src="./images/desktop-gallery-3.jpg" alt="image#3" />
+                        </picture>
                     </li>
                     <li class="gallery-item">
-                        <img src="./images/mob-gallery-4.jpg" alt="image#4">
+                        <picture>
+                            <source srcset="./images/mob-gallery-4.jpg" media="(max-width: 1279px)" />
+                            <img src="./images/desktop-gallery-4.jpg" alt="image#4" />
+                        </picture>
                     </li>
                     <li class="gallery-item">
-                        <img src="./images/mob-gallery-5.jpg" alt="image#5">
+                        <picture>
+                            <source srcset="./images/mob-gallery-5.jpg" media="(max-width: 1279px)" />
+                            <img src="./images/desktop-gallery-5.jpg" alt="image#5" />
+                        </picture>
                     </li>
                     <li class="gallery-item">
-                        <img src="./images/mob-gallery-6.jpg" alt="image#6">
+                        <picture>
+                            <source srcset="./images/mob-gallery-6.jpg" media="(max-width: 1279px)" />
+                            <img src="./images/desktop-gallery-6.jpg" alt="image#6" />
+                        </picture>
                     </li>
                 </ul>
             </div>
@@ -253,10 +292,10 @@
                         <a href="tel:+38 096 543 2100">+38 096 543 2100</a>
                         <a href="mailto:charity@mail.com">hope@mail.com</a>
                         <ul class="social-list">
-                            <li><a href="https://www.facebook.com/" target="_blank"><img src="./icons/mob-icon-facebook.svg"></a></li>
-                            <li><a href="https://www.instagram.com/" target="_blank"><img src="./icons/mob-icon-instagram.svg"></a></li>
-                            <li><a href="https://www.linkedIn.com/" target="_blank"><img src="./icons/mob-icon-linkedIn.svg"></a></li>
-                            <li><a href="https://www.twitter.com/" target="_blank"><img src="./icons/mob-icon-twitter.svg"></a></li>
+                            <li><a href="https://www.facebook.com/" target="_blank"><img src="./icons/mob-icon-facebook.svg" /></a></li>
+                            <li><a href="https://www.instagram.com/" target="_blank"><img src="./icons/mob-icon-instagram.svg" /></a></li>
+                            <li><a href="https://www.linkedIn.com/" target="_blank"><img src="./icons/mob-icon-linkedIn.svg" /></a></li>
+                            <li><a href="https://www.twitter.com/" target="_blank"><img src="./icons/mob-icon-twitter.svg" /></a></li>
                         </ul>
                     </nav>
                     <div class="navigation">
